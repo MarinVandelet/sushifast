@@ -1,0 +1,13 @@
+  /* RESET PROPRE POUR TAILWIND */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+  overflow-x: hidden;
+  font-family: system-ui, sans-serif;
+}
