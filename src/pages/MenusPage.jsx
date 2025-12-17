@@ -69,13 +69,7 @@ export default function MenusPage() {
           placeholder="Rechercher un menu..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
-          className="
-            w-full p-4 pr-12 rounded-xl shadow-md
-            border border-gray-300 
-            focus:ring-2 focus:ring-red-500 focus:border-red-500
-            outline-none transition-all text-gray-700
-            placeholder:text-gray-400
-            bg-white"/>
+          className="w-full p-4 pr-12 rounded-xl shadow-md border border-gray-300 focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none transition-all text-gray-700 placeholder:text-gray-400 bg-white"/>
       </motion.div>
 
       {/* Resultat de la recherche */}
@@ -111,4 +105,5 @@ export default function MenusPage() {
       )}
     </motion.div>
   );
+
 }
