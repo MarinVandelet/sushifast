@@ -105,5 +105,4 @@ export default function MenusPage() {
       )}
     </motion.div>
   );
-
 }
