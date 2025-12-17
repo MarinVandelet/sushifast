@@ -35,3 +35,6 @@ git clone https://github.com/MarinVandelet/sushifast.git
 cd sushifast
 npm install
 npm run dev
+```
+
+mais étant donné que le site est hébergeé il n'y a pas vraiment d'interêt.
