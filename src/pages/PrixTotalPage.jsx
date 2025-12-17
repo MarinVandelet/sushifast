@@ -30,11 +30,7 @@ export default function PrixTotalPage() {
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: index * 0.05 }}
-            className="
-              flex justify-between items-center
-              bg-white rounded-xl p-4
-              shadow-md hover:shadow-lg
-              transition">
+            className="flex justify-between items-center bg-white rounded-xl p-4 shadow-md hover:shadow-lg transition">
             <span className="font-medium text-gray-800">
               {m.nom}
             </span>
@@ -50,9 +46,7 @@ export default function PrixTotalPage() {
         initial={{ scale: 0.95, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ delay: 0.2 }}
-        className="
-          bg-red-50 border border-red-200
-          rounded-2xl p-6 text-center">
+        className="bg-red-50 border border-red-200 rounded-2xl p-6 text-center">
         <p className="text-gray-700 text-lg mb-1"> Total à payer </p>
         <p className="text-4xl font-bold text-red-600"> {total.toFixed(2)} €</p>
       </motion.div>
