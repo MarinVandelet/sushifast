@@ -3,8 +3,7 @@ import MenuCard from "../components/MenuCard";
 
 export default function AvocatCoriandrePage() {
   const filtres = menus.filter(menu =>
-    menu.saveurs.includes("avocat") || menu.saveurs.includes("coriandre")
-  );
+    menu.saveurs.includes("avocat") || menu.saveurs.includes("coriandre"));
 
   return (
     <>
