@@ -37,4 +37,4 @@ npm install
 npm run dev
 ```
 
-mais étant donné que le site est hébergeé il n'y a pas vraiment d'interêt.
+mais étant donné que le site est hébergé il n'y a pas vraiment d'interêt.
