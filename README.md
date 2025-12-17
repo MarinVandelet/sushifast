@@ -31,7 +31,7 @@ Application web permettant d’explorer des menus de sushis.
 ## Installation
 
 ```bash
-git clone https://github.com/ton-projet/sushifast.git
+git clone https://github.com/MarinVandelet/sushifast.git
 cd sushifast
 npm install
 npm run dev
